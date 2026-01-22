@@ -11,9 +11,9 @@ let fullConvo = [
     {from: 'pizza', text: 'Hi, seems like we got off on the \nwrong foot. Sorry about that.'},
     {from: 'rigs', text: 'hi maybe you can make it\nup to me somehow'},
     {from: 'pizza', text: 'Ok great would you like a coffee?'},
-    {from: 'rigs', text: 'Yeah that sounds lovely'},
+    {from: 'rigs', text: 'yea that sounds lovely!'},
     {from: 'pizza', text: 'Here you go!'},
-    {from: 'rigs', text: 'Wow this is the best coffee \nI\'ve ever had. Ur forgave.'},
+    {from: 'rigs', text: 'wow this is the best coffee \nI\'ve ever had. you\'re forgave.'},
     {from: 'pizza', text: 'Thanks. A wise person once said\n"Nothing is guaranteed, but choosing joy is"'},
     {from: 'pizza', text: 'Hannah -- will you choose me as your joy\nfor date night?'},
 ];
@@ -78,7 +78,7 @@ function yes() {
         convo.push({from: 'pizza', text: "GOD IS REAL! GOD IS GOOD! REJOYCE!"});
     }, 3000);
     setTimeout(() => {
-        convo.push({from: 'rigs', text: "Where did all this confetti come from?"});
+        convo.push({from: 'rigs', text: "where did all this confetti come from?"});
     }, 3000 * 2);
     setTimeout(() => {
         convo.push({from: 'pizza', text: "Idk but it sure is cool!\nSee ya at date night!!"});
