@@ -35,7 +35,7 @@ function setup() {
     for (let i = 0; i < fullConvo.length; i++) {
         setTimeout(() => {
             convo.push(fullConvo[i]);
-        }, 3000 * i);
+        }, 4500 * i);
     }
     textSize(22);
     setInterval(() => {
@@ -43,7 +43,7 @@ function setup() {
         if (stage == 8) {
             document.getElementById("yes-no-modal").style.display = "flex";
         }
-    }, 3000);
+    }, 4500);
 }
 
 function windowResized() {
@@ -76,12 +76,12 @@ function yes() {
     );
     setTimeout(() => {
         convo.push({from: 'pizza', text: "GOD IS REAL! GOD IS GOOD! REJOYCE!"});
-    }, 3000);
+    }, 4500);
     setTimeout(() => {
         convo.push({from: 'rigs', text: "where did all this confetti come from?"});
-    }, 3000 * 2);
+    }, 4500 * 2);
     setTimeout(() => {
         convo.push({from: 'pizza', text: "Idk but it sure is cool!\nSee ya at date night!!"});
-    }, 3000 * 3);
+    }, 4500 * 3);
     setInterval(confetti, 500);
 }
